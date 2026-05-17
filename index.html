@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TiramisumoodAmine - Tiramisu artisanal</title>
+    <meta name="title" content="TiramisumoodAmine - Tiramisu artisanal" />
+    <meta
+      name="description"
+      content="TiramisumoodAmine propose des tiramisus artisanaux, gourmands et livrés dans le 92, notamment Boulogne-Billancourt et alentours."
+    />
+    <meta property="og:title" content="TiramisumoodAmine - Tiramisu artisanal" />
+    <meta
+      property="og:description"
+      content="Tiramisu artisanal, moderne et gourmand. Livraison disponible dans le 92."
+    />
+    <meta property="og:site_name" content="TiramisumoodAmine" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:title" content="TiramisumoodAmine - Tiramisu artisanal" />
+    <meta
+      name="twitter:description"
+      content="Tiramisu artisanal, moderne et gourmand. Livraison disponible dans le 92."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#accueil" aria-label="Accueil TiraMood">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">TiraMood</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#tiramisus">Nos tiramisus</a>
+        <a href="#apropos">À propos</a>
+        <a href="#commander">Commander</a>
+      </nav>
+
+      <a class="header-cta" href="#commander">Commander maintenant</a>
+    </header>
+
+    <main>
+      <section class="hero section-reveal" id="accueil">
+        <div class="hero-content">
+          <p class="eyebrow">Dolce artigianale</p>
+          <h1>Le tiramisu revisité avec élégance</h1>
+          <p class="hero-text">
+            Des recettes artisanales, crémeuses et généreuses, préparées avec amour.
+          </p>
+          <p class="delivery-note">
+            Livraison disponible dans le 92 : Boulogne-Billancourt, Issy-les-Moulineaux,
+            Saint-Cloud, Sèvres, Meudon, Neuilly-sur-Seine et alentours.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#tiramisus">Découvrir nos tiramisus</a>
+            <a class="btn btn-secondary" href="#commander">Commander</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Tiramisu moderne TiraMood">
+          <img src="assets/tiramisu-hero.png" alt="Tiramisu moderne en verrine" />
+          <div class="hero-badge">
+            <strong>8</strong>
+            <span>recettes signature</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section-reveal" id="tiramisus">
+        <div class="section-heading">
+          <p class="eyebrow">Nos tiramisus</p>
+          <h2>Des envies douces, une finition premium</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-classique-cafe.png" alt="Tiramisu Classique Café" />
+            <div>
+              <h3>Tiramisu Classique Café</h3>
+              <p>La recette iconique, café intense et crème mascarpone soyeuse.</p>
+            </div>
+            <div class="product-bottom">
+              <span>4,90 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Classique Café"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Café|Cacao"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-speculoos.png" alt="Tiramisu Spéculoos" />
+            <div>
+              <h3>Tiramisu Spéculoos</h3>
+              <p>Une touche biscuitée et épicée, fondante à chaque cuillère.</p>
+            </div>
+            <div class="product-bottom">
+              <span>5,50 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Spéculoos"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Spéculoos|Café léger|Cacao"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-nutella.png" alt="Tiramisu Nutella" />
+            <div>
+              <h3>Tiramisu Nutella</h3>
+              <p>Ultra gourmand, avec une crème douce et un coeur chocolat-noisette.</p>
+            </div>
+            <div class="product-bottom">
+              <span>5,90 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Nutella"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Nutella|Cacao|Noisettes"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-fraise.png" alt="Tiramisu Fraise" />
+            <div>
+              <h3>Tiramisu Fraise</h3>
+              <p>Frais, fruité et léger, parfait pour une note printanière.</p>
+            </div>
+            <div class="product-bottom">
+              <span>5,50 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Fraise"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Fraises fraîches|Coulis de fraise"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-pistache.png" alt="Tiramisu Pistache" />
+            <div>
+              <h3>Tiramisu Pistache</h3>
+              <p>Crème généreuse, pistache raffinée et finale délicatement grillée.</p>
+            </div>
+            <div class="product-bottom">
+              <span>6,20 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Pistache"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Crème de pistache|Pistaches concassées"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-oreo.png" alt="Tiramisu Oreo" />
+            <div>
+              <h3>Tiramisu Oreo</h3>
+              <p>Une version croquante et crémeuse, pensée pour les vrais gourmands.</p>
+            </div>
+            <div class="product-bottom">
+              <span>5,90 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Oreo"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits Oreo|Cacao|Morceaux d’Oreo"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-kinder-bueno.png" alt="Tiramisu Kinder Bueno" />
+            <div>
+              <h3>Tiramisu Kinder Bueno</h3>
+              <p>Une crème douce, des notes noisette et une finition très généreuse.</p>
+            </div>
+            <div class="product-bottom">
+              <span>6,50 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Kinder Bueno"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Kinder Bueno|Chocolat|Noisettes"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card section-reveal">
+            <img src="assets/tiramisu-caramel.png" alt="Tiramisu Caramel Beurre Salé" />
+            <div>
+              <h3>Tiramisu Caramel Beurre Salé</h3>
+              <p>Un caramel rond, légèrement salé, dans une texture nuageuse.</p>
+            </div>
+            <div class="product-bottom">
+              <span>5,90 €</span>
+              <button
+                type="button"
+                class="ingredients-button"
+                data-product="Tiramisu Caramel Beurre Salé"
+                data-ingredients="Mascarpone|Crème|Œufs|Sucre|Biscuits cuillère|Caramel beurre salé|Cacao"
+              >
+                Voir les ingrédients
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="benefits section-reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Pourquoi nous choisir ?</p>
+          <h2>Un plaisir simple, préparé avec soin</h2>
+        </div>
+
+        <div class="benefit-grid">
+          <article>
+            <span class="benefit-icon">⌂</span>
+            <h3>Fait maison</h3>
+            <p>Chaque verrine est préparée en petite quantité pour garder une vraie texture artisanale.</p>
+          </article>
+          <article>
+            <span class="benefit-icon">✦</span>
+            <h3>Ingrédients frais</h3>
+            <p>Mascarpone, café, fruits et toppings sont sélectionnés pour leur goût et leur tenue.</p>
+          </article>
+          <article>
+            <span class="benefit-icon">◐</span>
+            <h3>Recettes généreuses</h3>
+            <p>Des couches crémeuses, du biscuit bien imbibé et une finition toujours gourmande.</p>
+          </article>
+          <article>
+            <span class="benefit-icon">↗</span>
+            <h3>Livraison rapide</h3>
+            <p>Commandes simples et livraison locale pour recevoir vos tiramisus au bon moment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-reveal" id="apropos">
+        <div>
+          <p class="eyebrow">À propos</p>
+          <h2>Une marque pensée pour les amoureux du dessert italien</h2>
+        </div>
+        <p>
+          TiraMood propose des tiramisus artisanaux, modernes et gourmands. Notre idée est
+          simple : garder l'âme du dessert italien, puis l'habiller avec des recettes actuelles,
+          des textures crémeuses et une présentation élégante.
+        </p>
+      </section>
+
+      <section class="reviews section-reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Avis clients</p>
+          <h2>Ils ont trouvé leur mood préféré</h2>
+        </div>
+
+        <div class="review-grid">
+          <article>
+            <div class="stars">★★★★★</div>
+            <p>“Le meilleur tiramisu que j’ai goûté !”</p>
+            <span>Camille</span>
+          </article>
+          <article>
+            <div class="stars">★★★★★</div>
+            <p>“Texture incroyable, pas trop sucré.”</p>
+            <span>Nadia</span>
+          </article>
+          <article>
+            <div class="stars">★★★★★</div>
+            <p>“La pistache est une dinguerie.”</p>
+            <span>Yanis</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="order section-reveal" id="commander">
+        <div class="order-copy">
+          <p class="eyebrow">Commander</p>
+          <h2>Prépare ta prochaine pause gourmande</h2>
+          <p>
+            Remplis le formulaire et nous te recontactons rapidement pour confirmer la commande.
+          </p>
+          <p class="delivery-note order-delivery">
+            Livraison disponible dans le 92 : Boulogne-Billancourt, Issy-les-Moulineaux,
+            Saint-Cloud, Sèvres, Meudon, Neuilly-sur-Seine et alentours.
+          </p>
+        </div>
+
+        <form class="order-form" id="order-form">
+          <label>
+            Nom
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              placeholder="Votre nom"
+              minlength="2"
+              maxlength="50"
+              autocomplete="name"
+              required
+            />
+          </label>
+          <label>
+            Téléphone
+            <input
+              type="tel"
+              id="telephone"
+              name="telephone"
+              placeholder="0612345678"
+              inputmode="tel"
+              autocomplete="tel"
+              required
+            />
+          </label>
+          <label>
+            E-mail
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="votre@email.com"
+              autocomplete="email"
+              required
+            />
+          </label>
+          <label>
+            Choix du tiramisu
+            <select id="tiramisu" name="tiramisu" required>
+              <option value="">Sélectionner</option>
+              <option>Tiramisu Classique Café</option>
+              <option>Tiramisu Spéculoos</option>
+              <option>Tiramisu Nutella</option>
+              <option>Tiramisu Fraise</option>
+              <option>Tiramisu Pistache</option>
+              <option>Tiramisu Oreo</option>
+              <option>Tiramisu Kinder Bueno</option>
+              <option>Tiramisu Caramel Beurre Salé</option>
+            </select>
+          </label>
+          <label>
+            Quantité
+            <input
+              type="number"
+              id="quantite"
+              name="quantite"
+              min="1"
+              max="20"
+              step="1"
+              value="1"
+              required
+            />
+          </label>
+          <label class="full-field">
+            Adresse de livraison
+            <input
+              type="text"
+              id="adresse"
+              name="adresse"
+              placeholder="Adresse complète pour la livraison"
+              minlength="8"
+              maxlength="120"
+              autocomplete="street-address"
+              required
+            />
+          </label>
+          <label class="full-field">
+            Message
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              maxlength="300"
+              placeholder="Horaire souhaité, précision, allergie..."
+            ></textarea>
+          </label>
+          <button class="btn btn-primary full-field" type="submit">Envoyer ma commande</button>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div>
+        <a class="logo" href="#accueil">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text">TiraMood</span>
+        </a>
+        <p>12 Via Dolce, 75010 Paris</p>
+        <p class="footer-delivery">
+          Livraison disponible dans le 92 : Boulogne-Billancourt, Issy-les-Moulineaux,
+          Saint-Cloud, Sèvres, Meudon, Neuilly-sur-Seine et alentours.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="#mentions-legales" class="legal-link" data-legal-open>Mentions légales</a>
+      </div>
+      <p class="site-credit">TiraMood pour Amine</p>
+    </footer>
+
+    <div class="legal-modal" id="mentions-legales" aria-hidden="true">
+      <div class="legal-backdrop" data-legal-close></div>
+      <section class="legal-dialog" role="dialog" aria-modal="true" aria-labelledby="legal-title">
+        <button class="legal-close" type="button" aria-label="Fermer les mentions légales" data-legal-close>
+          ×
+        </button>
+        <p class="eyebrow">TiraMood</p>
+        <h2 id="legal-title">Mentions légales</h2>
+        <p class="legal-date">Dernière mise à jour : 17 mai 2026</p>
+
+        <p>
+          Conformément à la loi pour la confiance dans l’économie numérique, le présent site met à
+          disposition des utilisateurs les informations relatives à son éditeur, son responsable de
+          publication et son hébergeur.
+        </p>
+
+        <h3>1. Éditeur du site</h3>
+        <p>
+          Nom commercial : TiraMood<br />
+          Responsable / propriétaire : [Nom et prénom du responsable]<br />
+          Statut juridique : [Micro-entreprise / Entrepreneur individuel / Société]<br />
+          SIRET : [Numéro SIRET]<br />
+          Adresse : [Adresse professionnelle ou siège social]<br />
+          E-mail : tiramisumood@gmail.com<br />
+          Téléphone : [Numéro de téléphone]
+        </p>
+        <p>
+          Activité : vente de tiramisus artisanaux, commande et livraison dans le 92, notamment
+          Boulogne-Billancourt et alentours.
+        </p>
+
+        <h3>2. Directeur de la publication</h3>
+        <p>Le directeur de la publication est : [Nom et prénom du responsable].</p>
+
+        <h3>3. Hébergement du site</h3>
+        <p>
+          Le site est hébergé par : [Nom de l’hébergeur]<br />
+          Adresse de l’hébergeur : [Adresse complète de l’hébergeur]<br />
+          Téléphone : [Numéro de téléphone de l’hébergeur]<br />
+          Site web : [Site de l’hébergeur]
+        </p>
+
+        <h3>4. Propriété intellectuelle</h3>
+        <p>
+          L’ensemble des éléments présents sur ce site, notamment les textes, images, logos,
+          graphismes, couleurs, icônes, design et contenus, sont la propriété de TiraMood ou
+          utilisés avec autorisation.
+        </p>
+        <p>
+          Toute reproduction, modification, diffusion ou exploitation du contenu du site, même
+          partielle, est interdite sans autorisation écrite préalable.
+        </p>
+
+        <h3>5. Produits et informations</h3>
+        <p>
+          Les photos présentes sur le site sont fournies à titre illustratif. Les tiramisus proposés
+          peuvent varier légèrement selon les disponibilités des ingrédients, les saisons et les
+          demandes des clients.
+        </p>
+        <p>
+          Les prix affichés peuvent être modifiés à tout moment. Le prix applicable est celui
+          communiqué au moment de la commande.
+        </p>
+
+        <h3>6. Allergènes</h3>
+        <p>
+          Les produits proposés peuvent contenir ou être en contact avec des allergènes, notamment :
+          œufs, lait, crème, gluten, fruits à coque, soja, arachides, cacao, biscuits, chocolat et
+          autres allergènes selon les recettes.
+        </p>
+        <p>
+          Le client est invité à signaler toute allergie ou intolérance avant de commander. TiraMood
+          ne pourra être tenu responsable en cas d’information non communiquée par le client.
+        </p>
+
+        <h3>7. Commandes et livraison</h3>
+        <p>Les commandes peuvent être passées via le formulaire du site ou par contact direct.</p>
+        <p>
+          La livraison est disponible dans le 92, notamment : Boulogne-Billancourt,
+          Issy-les-Moulineaux, Saint-Cloud, Sèvres, Meudon, Neuilly-sur-Seine et alentours.
+        </p>
+        <p>Les délais de livraison ou de retrait sont confirmés lors de la commande.</p>
+
+        <h3>8. Données personnelles</h3>
+        <p>
+          Les informations collectées via le formulaire de commande, comme le nom, le téléphone,
+          l’adresse e-mail, le choix du produit et le message, sont utilisées uniquement pour traiter
+          les commandes et contacter le client.
+        </p>
+        <p>Ces données ne sont pas revendues à des tiers.</p>
+        <p>
+          Conformément au Règlement Général sur la Protection des Données, l’utilisateur peut
+          demander l’accès, la modification ou la suppression de ses données personnelles en
+          contactant : tiramisumood@gmail.com
+        </p>
+
+        <h3>9. Cookies</h3>
+        <p>
+          Le site peut utiliser des cookies nécessaires à son bon fonctionnement ou à la mesure
+          d’audience.
+        </p>
+        <p>L’utilisateur peut configurer son navigateur pour refuser les cookies.</p>
+
+        <h3>10. Responsabilité</h3>
+        <p>
+          TiraMood s’efforce de fournir des informations exactes et à jour sur le site. Toutefois,
+          des erreurs ou omissions peuvent exister.
+        </p>
+        <p>
+          Le site peut être modifié, suspendu ou interrompu à tout moment, notamment pour
+          maintenance.
+        </p>
+
+        <h3>11. Crédit du site</h3>
+        <p>Site by Elias pour Amine.</p>
+      </section>
+    </div>
+
+    <div class="ingredients-modal" aria-hidden="true">
+      <div class="ingredients-backdrop" data-ingredients-close></div>
+      <section
+        class="ingredients-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="ingredients-title"
+      >
+        <button
+          class="ingredients-close"
+          type="button"
+          aria-label="Fermer les ingrédients"
+          data-ingredients-close
+        >
+          ×
+        </button>
+        <p class="eyebrow">Composition</p>
+        <h2 id="ingredients-title">Ingrédients</h2>
+        <ul class="ingredients-list"></ul>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
